@@ -79,3 +79,26 @@ footer div {
     flex-direction: column;
   }
 }
+
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+  }
+  section {
+    background-color: #09506f;
+  }
+  article {
+    background-color: #a3ddcb;
+  }
+
+  aside {
+    background-color: #fd7b54;
+  }
+
+  aside div {
+    background-color: #fdb36b;
+  }
+  footer div {
+    background-color: #fdc764;
+  }
+}
