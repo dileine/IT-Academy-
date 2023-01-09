@@ -1,0 +1,17 @@
+* {
+  margin: 10px;
+  padding: 10px;
+}
+header {
+  background-color: black;
+}
+
+nav {
+  background-color: rgb(26, 26, 60);
+}
+
+.item-left,
+.item-center,
+.item-right {
+  background-color: rgb(220, 20, 37);
+}
