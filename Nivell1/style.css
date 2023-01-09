@@ -2,7 +2,10 @@
   margin: 10px;
   padding: 10px;
 }
-header {
+
+header,
+main,
+footer {
   background-color: black;
 }
 
@@ -14,4 +17,36 @@ nav {
 .item-center,
 .item-right {
   background-color: rgb(220, 20, 37);
+}
+
+.container-title {
+  background-color: rgb(255, 115, 0);
+}
+
+.title {
+  background-color: rgb(254, 231, 21);
+}
+
+section {
+  background-color: rgb(38, 38, 81);
+}
+
+article {
+  background-color: rgb(35, 70, 208);
+}
+
+.art-center {
+  background-color: rgb(101, 210, 222);
+}
+
+aside {
+  background-color: rgb(220, 20, 37);
+}
+
+aside div {
+  background-color: rgb(242, 242, 105);
+}
+
+footer div {
+  background-color: rgb(230, 230, 12);
 }
