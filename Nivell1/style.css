@@ -3,20 +3,36 @@
   padding: 10px;
 }
 
+body {
+  max-width: 1200px;
+}
+
 header,
 main,
 footer {
   background-color: black;
 }
 
-nav {
-  background-color: rgb(26, 26, 60);
+main {
+  display: flex;
 }
 
-.item-left,
-.item-center,
-.item-right {
+nav {
+  background-color: rgb(26, 26, 60);
+  display: flex;
+}
+
+.item {
   background-color: rgb(220, 20, 37);
+}
+
+.left,
+.right {
+  flex: 1;
+}
+
+.center {
+  flex: 4;
 }
 
 .container-title {
@@ -29,18 +45,24 @@ nav {
 
 section {
   background-color: rgb(38, 38, 81);
+  flex: 2;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 article {
   background-color: rgb(35, 70, 208);
+  flex: 1 1 40%;
 }
 
 .art-center {
   background-color: rgb(101, 210, 222);
+  flex: 1 1 100%;
 }
 
 aside {
-  background-color: rgb(220, 20, 37);
+  background-color: rgb(252, 10, 10);
+  flex: 1;
 }
 
 aside div {
