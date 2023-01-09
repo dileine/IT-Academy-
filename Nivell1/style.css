@@ -72,3 +72,10 @@ aside div {
 footer div {
   background-color: rgb(230, 230, 12);
 }
+
+@media (max-width: 1024px) {
+  main {
+    background-color: yellow;
+    flex-direction: column;
+  }
+}
