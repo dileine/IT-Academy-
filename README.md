@@ -1,5 +1,10 @@
-# Front end React
+# Itinerari React (IT Academy - Barcelona Activa)
 
-Sprint 1:
+## Exercicis Sprint 1: Maquetació
 
-Crear un Layout que ha de funcionar tant en escriptori, com mòbil i tauleta.
+### Objectius:
+
+- Maquetació per caixes.
+- Distribució per eixos Flex.
+- Diferenciar entre contenidor i item.
+- Ajustar maquetació a tamany pantalla.
