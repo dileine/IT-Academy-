@@ -94,34 +94,139 @@ h1 {
   background-color: rgba(70, 68, 68, 0.1);
 }
 
+/* ------ Exercici 5: estils articles ------ */
+
+main {
+  font-size: 1.6rem;
+  display: flex;
+  gap: 1rem;
+}
+
+section {
+  background-color: rgba(70, 68, 68, 0.2);
+  color: rgb(175, 174, 174);
+  flex: 3;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+article {
+  background-color: rgba(243, 243, 243, 0.856);
+  margin: 1rem;
+  padding: 1rem;
+  flex: 1 1 40%;
+}
+
+figure img {
+  object-fit: cover;
+  width: 100%;
+  height: 19rem;
+}
+
+figcaption {
+  color: rgb(255, 212, 110);
+  font-size: 1.3rem;
+  margin-top: -2.2rem;
+  padding-left: 0.3rem;
+}
+
+article h3 {
+  background-color: rgb(220, 130, 120);
+  color: rgba(255, 255, 255, 0.856);
+  font-family: "Roboto Mono", sans-serif;
+  height: 3.5rem;
+  margin-top: 0.4rem;
+  padding: 1rem 0 0 0.5rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+
+.artCentre p {
+  column-count: 2;
+  column-gap: 2rem;
+  margin: 2rem 0 0 0.4rem;
+
+  flex: 1 1 40%;
+  font-size: 1.5rem;
+  color: rgb(105, 105, 105);
+}
+
+.artCentre a {
+  display: block;
+  padding: 1rem 0 0 0.4rem;
+  opacity: 0.7;
+  text-decoration: none;
+  color: rgb(105, 105, 105);
+}
+
+.artCentre a p:hover {
+  color: rgb(252, 123, 84);
+}
+
+.artFooter p {
+  color: black;
+  text-align: center;
+  padding: 1.2rem 1.5rem 0.6rem 1.5rem;
+  flex: 1 1 100%;
+}
+
+aside {
+  background-color: rgba(70, 68, 68, 0.2);
+  color: black;
+
+  text-align: center;
+  flex: 1;
+}
+
+aside h3 {
+  margin: 4rem 0 0 0.4rem;
+}
+
+aside p {
+  margin: 2rem;
+}
+
+footer {
+  background-color: rgba(70, 68, 68, 0.2);
+  font-size: 1.6rem;
+}
+
+footer p {
+  background-color: rgba(243, 243, 243, 0.856);
+  color: rgb(105, 105, 105);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  margin: 0 1rem;
+  padding: 0.75rem 0rem;
+}
+
 /*  ------ Adaptació tauleta i mòbil -------  */
 
 @media (max-width: 1024px) {
   main {
-    background-color: yellow;
     flex-direction: column;
+  }
+
+  header {
+    background-size: 150rem;
+    background-position: center 50%;
+  }
+
+  #menu {
+    padding-right: 4rem;
+  }
+
+  i {
+    font-size: 1.1rem;
+  }
+
+  a {
+    font-size: 1.3rem;
   }
 }
 
 @media (max-width: 480px) {
   nav {
     flex-direction: column;
-  }
-  section {
-    background-color: #09506f;
-  }
-  article {
-    background-color: #a3ddcb;
-  }
-
-  aside {
-    background-color: #fd7b54;
-  }
-
-  aside div {
-    background-color: #fdb36b;
-  }
-  footer div {
-    background-color: #fdc764;
   }
 }
