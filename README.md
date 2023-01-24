@@ -1,10 +1,13 @@
-# Itinerari React (IT Academy - Barcelona Activa)
+# Itinerari Online React (IT Academy - Barcelona Activa)
 
 ## Exercicis Sprint 1: Maquetació
 
-### Objectius:
+- Maquetació CSS. Flex i Grid.
+- mediaQueries i Keyframes
 
-- Maquetació per caixes.
-- Distribució per eixos Flex.
-- Diferenciar entre contenidor i item.
-- Ajustar maquetació a tamany pantalla.
+  **Objectius**:
+
+  - Maquetació per caixes.
+  - Distribució per eixos Flex.
+  - Diferenciar entre contenidor i item.
+  - Ajustar maquetació a tamany pantalla.
