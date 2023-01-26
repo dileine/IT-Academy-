@@ -238,6 +238,7 @@ footer p {
   }
 
   nav {
+    margin-top: 2rem;
     flex-direction: column;
   }
 
@@ -250,11 +251,11 @@ footer p {
   }
 
   i {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   a {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   #social {
@@ -262,9 +263,9 @@ footer p {
   }
 
   h1 {
-    font-size: 1.3rem;
-    margin: 5.2rem 3.1rem 0;
-    padding-top: 1.7rem;
+    font-size: 1.4rem;
+    margin: 5.7rem 3.1rem 0;
+    padding-top: 1.5rem;
   }
 
   main {
@@ -272,7 +273,24 @@ footer p {
     font-size: 1.3rem;
   }
 
-  article {
+  section {
+    flex-direction: column;
+  }
+
+  .artCentre p {
+    font-size: 1.2rem;
+    column-count: 1;
+  }
+
+  aside h3 {
+    margin: 2rem 0 0 0.2rem;
+  }
+
+  aside p {
+    margin: 1rem;
+  }
+
+  footer {
     font-size: 1.2rem;
   }
 }
