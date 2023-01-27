@@ -1,5 +1,7 @@
 # Itinerari Online React (IT Academy - Barcelona Activa)
 
+Almne: **Mar López Martínez**
+
 ## Exercicis Sprint 1: Maquetació
 
 - Maquetació CSS. Flex i Grid.
