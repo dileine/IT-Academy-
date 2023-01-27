@@ -29,7 +29,7 @@ header {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
-  animation: fadeInOut 6s;
+  animation: fadeInOut 5s;
 }
 
 nav {
