@@ -1,6 +1,6 @@
 # Itinerari Online React (IT Academy - Barcelona Activa)
 
-Almne: **Mar López Martínez**
+Alumne: **Mar López Martínez**
 
 ## Exercicis Sprint 1: Maquetació
 
